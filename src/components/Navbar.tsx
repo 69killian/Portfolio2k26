@@ -1,9 +1,17 @@
+import Image from "next/image";
 import Separator from "./Separator";
 
 export default function Navbar() {
   return (
     <div className="fixed top-12 left-12 md:top-82 md:left-24">
       <div className="max-w-[180px]">
+        <Image
+          src="/icons/kmlogotest.png"
+          alt="KillianCodes"
+          width={50}
+          height={50}
+          className="object-cover w-15 h-5 ml-[-18px]"
+        />
         <div className="text-md text-white/60 font-light">KillianCodes</div>
         <div className="text-md font-light text-white/20 hover:text-white/60 transition-all duration-300">
           Projects
