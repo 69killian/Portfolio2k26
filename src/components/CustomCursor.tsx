@@ -27,7 +27,9 @@ export default function CustomCursor() {
 
   return (
     <div
-      className={`custom-cursor ${isClicking ? "clicking" : ""}`}
+      className={`custom-cursor ${
+        isClicking ? "clicking" : ""
+      } hidden xl:block`}
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,
