@@ -1,3 +1,6 @@
+"use client";
+import AnimatedText from "@/components/AnimatedText";
+import FadeUpSection from "@/components/FadeUpSection";
 import MarqueeText from "@/components/MarqueeText";
 import Navbar from "@/components/Navbar";
 import Separator from "@/components/Separator";
@@ -13,82 +16,102 @@ export default function Home() {
         <div className="min-h-screen flex flex-col items-center justify-center px-12 md:px-24 pt-55">
           <section id="home" className="max-w-3xl w-full">
             <h1 className="text-5xl md:text-5xl font-light tracking-tight leading-[1.1] mb-12">
-              When design
-              <br />
-              meets code,
-              <br />
-              interfaces become alive.
+              <AnimatedText
+                text={[
+                  "When design",
+                  "meets code,",
+                  "interfaces become alive.",
+                ]}
+              />
             </h1>
 
-            <div className="flex items-center gap-4 mb-0">
-              <div className="flex-shrink-0">
-                <Image
-                  src="/icons/logo.jpg"
-                  alt="Killian Logo"
-                  width={58}
-                  height={58}
-                  className="opacity-90 rounded-full"
-                />
+            <FadeUpSection delay={1}>
+              <div className="flex items-center gap-4 mb-4">
+                <div className="flex-shrink-0">
+                  <Image
+                    src="/icons/logo.jpg"
+                    alt="Killian Logo"
+                    width={58}
+                    height={58}
+                    className="opacity-90 rounded-full"
+                  />
+                </div>
+                <p className="text-xl font-light leading-relaxed max-w-2xl mb-0">
+                  Hi 👋, I&apos;m Killian — a Front-End Developer with 3 years
+                  of experience building sleek, performant web interfaces.
+                </p>
               </div>
-              <p className="text-xl font-light leading-relaxed max-w-2xl mb-0">
-                Hi 👋, I&apos;m Killian Marty — a Front-End Developer with 3
-                years of experience building sleek, performant web interfaces.
+            </FadeUpSection>
+
+            <FadeUpSection delay={1.2}>
+              <p className="text-md text-white/60 font-light leading-relaxed mb-8 max-w-2xl">
+                I share my journey and projects openly on X and LinkedIn,
+                turning ideas into concrete apps that other developers can
+                actually use.
               </p>
-            </div>
-            <br />
+            </FadeUpSection>
 
-            <p className="text-md text-white/60 font-light leading-relaxed mb-8 max-w-2xl">
-              I share my journey and projects openly on X and LinkedIn, turning
-              ideas into concrete apps that other developers can actually use.
-            </p>
+            <FadeUpSection delay={1.4}>
+              <p className="text-md text-white/60 font-light leading-relaxed">
+                Here are some of the technologies I&apos;ve worked with.
+              </p>
+              <MarqueeText className="mb-0" />
+            </FadeUpSection>
 
-            <p className="text-md text-white/60 font-light leading-relaxed">
-              Here are some of the technologies I&apos;ve worked with.
-            </p>
-            <MarqueeText className="mb-0" />
+            <FadeUpSection delay={1.5}>
+              <Separator className="mb-8 mt-0" />
+            </FadeUpSection>
 
-            <Separator className="mb-8 mt-0" />
-
-            <p className="text-xl font-light mb-8">
-              Currently, I&apos;m working as:
-            </p>
+            <FadeUpSection delay={1.6}>
+              <p className="text-xl font-light mb-8">
+                Currently, I&apos;m working as:
+              </p>
+            </FadeUpSection>
 
             <div className="space-y-6 mb-8">
-              <div className="flex items-center gap-4">
-                <div className="flex-shrink-0">
-                  <Image
-                    src="/icons/ost.jpg"
-                    alt="OST Logo"
-                    width={38}
-                    height={38}
-                    className="opacity-90 rounded-md"
-                  />
+              <FadeUpSection delay={1.8}>
+                <div className="flex items-center gap-4">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/icons/ost.jpg"
+                      alt="OST Logo"
+                      width={38}
+                      height={38}
+                      className="opacity-90 rounded-md"
+                    />
+                  </div>
+                  <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
+                    Founder Front{" "}
+                    <span className="text-white">
+                      @OpenSource Together (OST)
+                    </span>{" "}
+                    → shaping collaborative open-source projects.
+                  </p>
                 </div>
-                <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
-                  Founder Front{" "}
-                  <span className="text-white">@OpenSource Together (OST)</span>{" "}
-                  → shaping collaborative open-source projects.
-                </p>
-              </div>
+              </FadeUpSection>
 
-              <div className="flex items-center gap-4">
-                <div className="flex-shrink-0">
-                  <Image
-                    src="/icons/gitify.png"
-                    alt="Gitify Logo"
-                    width={38}
-                    height={38}
-                    className="opacity-90 rounded-md"
-                  />
+              <FadeUpSection delay={2}>
+                <div className="flex items-center gap-4">
+                  <div className="flex-shrink-0">
+                    <Image
+                      src="/icons/gitify.png"
+                      alt="Gitify Logo"
+                      width={38}
+                      height={38}
+                      className="opacity-90 rounded-md"
+                    />
+                  </div>
+                  <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
+                    Founder <span className="text-white">@Gitify</span> → a
+                    micro-SaaS that gamifies GitHub for developers.
+                  </p>
                 </div>
-                <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
-                  Founder <span className="text-white">@Gitify</span> → a
-                  micro-SaaS that gamifies GitHub for developers.
-                </p>
-              </div>
+              </FadeUpSection>
             </div>
 
-            <Separator className="mb-8 mt-0" />
+            <FadeUpSection delay={1.5}>
+              <Separator className="mb-8 mt-0" />
+            </FadeUpSection>
 
             {/* Section numérotée */}
             <section id="projects">
@@ -118,7 +141,7 @@ export default function Home() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="https://opensource-together.com/"
                       className="text-white flex items-center gap-1 ml-4"
                     >
                       <span className="underline hover:text-white/60">
@@ -148,7 +171,7 @@ export default function Home() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="https://warmhearted-imagine-949567.framer.app/"
                       className="text-white flex items-center gap-1 ml-4"
                     >
                       <span className="underline hover:text-white/60">
@@ -177,7 +200,7 @@ export default function Home() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="https://mighty-travel-887542.framer.app/"
                       className="text-white flex items-center gap-1 ml-4"
                     >
                       <span className="underline hover:text-white/60">
@@ -207,7 +230,7 @@ export default function Home() {
                       </p>
                     </div>
                     <a
-                      href="#"
+                      href="https://creative-points-743034.framer.app/"
                       className="text-white flex items-center gap-1 ml-4"
                     >
                       <span className="underline hover:text-white/60">
@@ -220,7 +243,9 @@ export default function Home() {
               </div>
             </section>
 
-            <Separator className="mb-8 mt-12" />
+            <FadeUpSection delay={2.2}>
+              <Separator className="mb-8 mt-12" />
+            </FadeUpSection>
 
             <section id="cv" className="flex items-center justify-between">
               <div>
@@ -238,7 +263,9 @@ export default function Home() {
               </a>
             </section>
 
-            <Separator className="mb-8 mt-12" />
+            <FadeUpSection delay={2.2}>
+              <Separator className="mb-8 mt-12" />
+            </FadeUpSection>
 
             <section id="contact" className="mb-10">
               <h2 className="text-3xl font-light mb-4">Let&apos;s Connect</h2>
@@ -262,7 +289,7 @@ export default function Home() {
                   <span className="inline-block no-underline">↗</span>
                 </a>
                 <a
-                  href="https://x.com/killiancodes69"
+                  href="https://x.com/KillianCodes69"
                   className="text-white flex items-center gap-1"
                 >
                   <Image
@@ -288,7 +315,7 @@ export default function Home() {
                   <span className="inline-block no-underline">↗</span>
                 </a>
                 <a
-                  href="https://linkedin.com/in/killianmarty"
+                  href="https://www.linkedin.com/in/killian-marty-557b78334/"
                   className="text-white flex items-center gap-1"
                 >
                   <Image
@@ -365,7 +392,7 @@ export default function Home() {
                 />
               </a>
               <a
-                href="https://x.com/killiancodes69"
+                href="https://x.com/KillianCodes69"
                 className="text-sm hover:text-[#111111] flex items-center gap-1"
               >
                 <Image
@@ -389,7 +416,7 @@ export default function Home() {
                 />
               </a>
               <a
-                href="https://linkedin.com/in/killianmarty"
+                href="https://www.linkedin.com/in/killian-marty-557b78334/"
                 className="text-sm hover:text-[#111111] flex items-center gap-1"
               >
                 <Image
