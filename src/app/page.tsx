@@ -255,7 +255,10 @@ export default function Home() {
                   more about my experience and skills.
                 </p>
               </div>
-              <a href="#" className="text-white flex items-center gap-1 ml-4">
+              <a
+                href="/cv-killian-alternance.pdf"
+                className="text-white flex items-center gap-1 ml-4"
+              >
                 <span className="underline hover:text-white/60">
                   Download CV
                 </span>

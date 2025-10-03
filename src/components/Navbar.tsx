@@ -41,7 +41,7 @@ export default function Navbar() {
   return (
     <>
       {/* Mobile header with logo and hamburger */}
-      <div className="fixed top-0 left-0 right-0 flex justify-between items-center px-6 py-1 md:hidden bg-[#111111]/80 backdrop-blur-lg z-50">
+      <div className="fixed top-0 left-0 right-0 flex justify-between items-center px-6 py-1 xl:hidden bg-[#111111]/80 backdrop-blur-lg z-50">
         <a
           href="#"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
@@ -88,7 +88,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`fixed inset-0 bg-[#111111]/80 backdrop-blur-lg z-40 transition-transform duration-300 md:hidden ${
+        className={`fixed inset-0 bg-[#111111]/80 backdrop-blur-lg z-40 transition-transform duration-300 xl:hidden ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -131,7 +131,7 @@ export default function Navbar() {
       </div>
 
       {/* Desktop navigation */}
-      <div className="fixed top-12 left-12 md:top-52 md:left-24 hidden md:block">
+      <div className="fixed top-12 left-12 xl:top-52 xl:left-24 hidden xl:block">
         <div className="max-w-[180px]">
           <a
             href="#"
