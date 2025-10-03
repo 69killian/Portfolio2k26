@@ -11,7 +11,7 @@ export default function Home() {
 
         {/* Contenu principal centré */}
         <div className="min-h-screen flex flex-col items-center justify-center px-12 md:px-24 pt-55">
-          <div className="max-w-3xl w-full">
+          <section id="home" className="max-w-3xl w-full">
             <h1 className="text-5xl md:text-5xl font-light tracking-tight leading-[1.1] mb-12">
               When design
               <br />
@@ -91,10 +91,10 @@ export default function Home() {
             <Separator className="mb-8 mt-0" />
 
             {/* Section numérotée */}
-            <div className="mt-0">
+            <section id="projects">
               <h2 className="text-3xl font-light mb-4">Projects</h2>
               <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl mb-8">
-                A glimpse into the projects I’ve brought to life.
+                A glimpse into the projects I&apos;ve brought to life.
               </p>
               <div className="space-y-12">
                 <div>
@@ -218,11 +218,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
 
             <Separator className="mb-8 mt-12" />
 
-            <div className="flex items-center justify-between">
+            <section id="cv" className="flex items-center justify-between">
               <div>
                 <h2 className="text-3xl font-light mb-4">Curriculum Vitae</h2>
                 <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
@@ -236,11 +236,11 @@ export default function Home() {
                 </span>
                 <span className="inline-block no-underline">↗</span>
               </a>
-            </div>
+            </section>
 
             <Separator className="mb-8 mt-12" />
 
-            <div className="mb-10">
+            <section id="contact" className="mb-10">
               <h2 className="text-3xl font-light mb-4">Let&apos;s Connect</h2>
               <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl mb-6">
                 Have a project in mind or just want to chat? Feel free to reach
@@ -303,8 +303,8 @@ export default function Home() {
                   <span className="inline-block no-underline">↗</span>
                 </a>
               </div>
-            </div>
-          </div>
+            </section>
+          </section>
         </div>
       </div>
       {/* Footer */}
