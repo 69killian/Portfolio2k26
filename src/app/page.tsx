@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar />
 
         {/* Contenu principal centré */}
-        <div className="min-h-screen flex flex-col items-center justify-center px-12 md:px-24">
+        <div className="min-h-screen flex flex-col items-center justify-center px-12 md:px-24 pt-55">
           <div className="max-w-3xl w-full">
             <h1 className="text-5xl md:text-5xl font-light tracking-tight leading-[1.1] mb-12">
               When design
@@ -103,7 +103,7 @@ export default function Home() {
                     alt="OST Project Preview"
                     width={1920}
                     height={1080}
-                    className="w-full h-[400px] object-cover rounded-xl mb-4 border border-white/20"
+                    className="w-full h-[200px] md:h-[400px] object-cover rounded-xl mb-4 border border-white/20"
                   />
                   <div className="flex items-start justify-between">
                     <div>
@@ -136,7 +136,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full rounded-xl h-[400px] object-cover mb-4 border border-white/20"
+                    className="w-full rounded-xl h-[200px] md:h-[400px] object-cover mb-4 border border-white/20"
                   />
                   <div className="flex items-start justify-between">
                     <div>
@@ -166,7 +166,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full rounded-xl h-[400px] object-cover mb-4 border border-white/20"
+                    className="w-full rounded-xl h-[200px] md:h-[400px] object-cover mb-4 border border-white/20"
                   />
                   <div className="flex items-start justify-between">
                     <div>
@@ -195,7 +195,7 @@ export default function Home() {
                     loop
                     muted
                     playsInline
-                    className="w-full rounded-xl h-[400px] object-cover mb-4 border border-white/20"
+                    className="w-full rounded-xl h-[200px] md:h-[400px] object-cover mb-4 border border-white/20"
                   />
                   <div className="flex items-start justify-between">
                     <div>
