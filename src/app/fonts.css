@@ -1,0 +1,102 @@
+/* Helvetica Neue Font Family */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Light"), local("HelveticaNeue-Light");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Light Italic"), local("HelveticaNeue-LightItalic");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue"), local("HelveticaNeue");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Italic"), local("HelveticaNeue-Italic");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Medium Italic"),
+    local("HelveticaNeue-MediumItalic");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Bold Italic"), local("HelveticaNeue-BoldItalic");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Heavy"), local("HelveticaNeue-Heavy");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Heavy Italic"), local("HelveticaNeue-HeavyItalic");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Black"), local("HelveticaNeue-Black");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: local("Helvetica Neue Black Italic"), local("HelveticaNeue-BlackItalic");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Fallback fonts for better compatibility */
+.helvetica-neue {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
