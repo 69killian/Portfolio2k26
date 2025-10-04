@@ -33,6 +33,10 @@ html {
   mix-blend-mode: difference;
 }
 
+.custom-cursor.no-smooth {
+  transition: none;
+}
+
 .custom-cursor::after {
   content: "";
   position: absolute;

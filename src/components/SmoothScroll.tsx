@@ -5,6 +5,11 @@ import { useEffect } from "react";
 
 export default function SmoothScroll() {
   useEffect(() => {
+    // Détecte si c'est Chrome
+    const isChrome = navigator.userAgent.indexOf("Chrome") > -1;
+
+    // Ne pas initialiser Lenis sur Chrome
+    if (isChrome) return;
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
