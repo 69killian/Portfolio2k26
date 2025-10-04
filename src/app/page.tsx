@@ -277,7 +277,7 @@ export default function Home() {
                 out. I&apos;m always open to discussing new opportunities and
                 creative collaborations.
               </p>
-              <div className="flex gap-6 text-sm sm:text-base">
+              <div className="grid grid-cols-2 gap-4 sm:flex sm:gap-6 text-sm sm:text-base">
                 <a
                   href="mailto:killian.codes69@gmail.com"
                   className="text-white flex items-center gap-1"
