@@ -1,6 +1,6 @@
-# 🌐 Portfolio 2026 — Développeur Web & SaaS Builder
+# 🌐 Portfolio 2026
 
-Bienvenue sur mon **Portfolio 2026**, conçu pour présenter mon travail, mes projets et mon évolution en tant que développeur web spécialisé en **Next.js**, **UI/UX**, et **création de micro-SaaS**.
+Bienvenue sur mon **Portfolio 2026**, conçu pour présenter mon travail, mes projets et mon évolution en tant que développeur web spécialisé en **Next.js**, **UI/UX**.
 
 Ce site a été développé avec **Next.js 15**, en mettant l’accent sur la performance, la simplicité, et une expérience fluide.
 
