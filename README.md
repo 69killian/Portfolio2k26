@@ -1,6 +1,6 @@
 # KLillianCodes Portfolio 2026
 
-Bienvenue sur mon **Portfolio 2026**, conçu pour présenter mon travail, mes projets et mon évolution en tant que développeur web spécialisé en **Next.js**, **UI/UX**, tout en mettant l'accent sur le minimalisme.
+Bienvenue sur mon **Portfolio**, conçu pour présenter mon travail, mes projets et mon évolution en tant que développeur web spécialisé en **Next.js**, **UI/UX**, tout en mettant l'accent sur le minimalisme.
 
 Ce site a été développé avec **Next.js 15**, en mettant l’accent sur la performance, la simplicité, et une expérience fluide.
 
