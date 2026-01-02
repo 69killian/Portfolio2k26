@@ -154,6 +154,36 @@ export default function Home() {
 
                 <div>
                   <video
+                    src="/videos/moovai.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full rounded-xl h-[200px] md:h-[400px] object-cover mb-4 border border-white/20"
+                  />
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <h3 className="text-xl font-light mb-2">MoovAI</h3>
+                      <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
+                        Create UGC videos in seconds thanks to the power of UGC
+                        Kling. Transform your ideas into engaging video content
+                        effortlessly.
+                      </p>
+                    </div>
+                    <a
+                      href="https://moovai.app"
+                      className="text-white flex items-center gap-1 ml-4"
+                    >
+                      <span className="underline hover:text-white/60">
+                        View
+                      </span>
+                      <span className="inline-block no-underline">↗</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div>
+                  <video
                     src="/videos/gitify.mp4"
                     autoPlay
                     loop
@@ -172,35 +202,6 @@ export default function Home() {
                     </div>
                     <a
                       href="https://warmhearted-imagine-949567.framer.app/"
-                      className="text-white flex items-center gap-1 ml-4"
-                    >
-                      <span className="underline hover:text-white/60">
-                        View
-                      </span>
-                      <span className="inline-block no-underline">↗</span>
-                    </a>
-                  </div>
-                </div>
-
-                <div>
-                  <video
-                    src="/videos/paste.mp4"
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="w-full rounded-xl h-[200px] md:h-[400px] object-cover mb-4 border border-white/20"
-                  />
-                  <div className="flex items-start justify-between">
-                    <div>
-                      <h3 className="text-xl font-light mb-2">Paste UI</h3>
-                      <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
-                        A modern and flexible component library for creating
-                        elegant dashboards and sophisticated user interfaces.
-                      </p>
-                    </div>
-                    <a
-                      href="https://mighty-travel-887542.framer.app/"
                       className="text-white flex items-center gap-1 ml-4"
                     >
                       <span className="underline hover:text-white/60">
