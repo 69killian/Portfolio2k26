@@ -94,16 +94,16 @@ export default function Home() {
                 <div className="flex items-center gap-4">
                   <div className="flex-shrink-0">
                     <Image
-                      src="/icons/gitify.png"
-                      alt="Gitify Logo"
+                      src="/icons/Mvai.png"
+                      alt="MoovAI Logo"
                       width={38}
                       height={38}
                       className="opacity-90 rounded-md"
                     />
                   </div>
                   <p className="text-md text-white/60 font-light leading-relaxed max-w-2xl">
-                    Founder <span className="text-white">@Gitify</span> → a
-                    micro-SaaS that gamifies GitHub for developers.
+                    Founder <span className="text-white">@MoovAI</span> → a AI
+                    SaaS that creates tones of AI Influencers using Kling.
                   </p>
                 </div>
               </FadeUpSection>
